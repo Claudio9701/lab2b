@@ -1,4 +1,4 @@
-# lab2b-cambioporqueteodio
+# lab2b-cambioapropositoparahacerunmergeerror
 
 Proeccto del grupo XYZ
 
