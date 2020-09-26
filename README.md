@@ -1,4 +1,4 @@
-# lab2b
+# lab2b-cambioapropositoparahacerunmergeerror
 
 Proeccto del grupo XYZ 
 
