@@ -1,6 +1,6 @@
-# lab2b
+# lab2b-cambioporqueteodio
 
-Proeccto del grupo XYZ 
+Proeccto del grupo XYZ
 
 HEmos hecho esto con tal cosa y blablabla :smile:
 
