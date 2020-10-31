@@ -5,6 +5,7 @@ from django.urls import reverse_lazy
 from django.contrib.auth import login
 from django.db.models import F
 from django.contrib import messages
+from django.contrib.auth.mixins import LoginRequiredMixin
 from random import randint
 
 from .models import *
@@ -96,7 +97,7 @@ class RegistrationView(FormView):
         return super().form_valid(form)
 
 
-class AddToCartView(View):
+class AddToCartView(LoginRequiredMixin, View):
     def get(self, request, product_pk):
         # Obten el cliente
         user_profile = Profile.objects.get(user=request.user)
